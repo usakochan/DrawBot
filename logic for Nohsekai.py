@@ -81,3 +81,5 @@ font("Zen Maru Gothic")
 fill(1, 0, 1)
 strokeWidth(0)
 textBox("決定", (125, 5, 50,50), align="center")
+
+saveImage('~/Pictures/logic.pdf')#サイズがちっさかったな！png/jpgだとひどい出来上がりだ...
