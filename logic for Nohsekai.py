@@ -1,4 +1,8 @@
-size(300, 300)
+#size(300, 300)
+#size(300, 300)のままだとサイズがちっさかったな！png/jpgだとひどい出来上がりだ...
+scale_factor = 4
+newPage(300 * scale_factor, 300 * scale_factor)
+scale(scale_factor)
 
 #選好の幅
 fill(1)
@@ -82,4 +86,4 @@ fill(1, 0, 1)
 strokeWidth(0)
 textBox("決定", (125, 5, 50,50), align="center")
 
-saveImage('~/Pictures/logic.pdf')#サイズがちっさかったな！png/jpgだとひどい出来上がりだ...
+saveImage('~/Pictures/logic.jpg')

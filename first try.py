@@ -11,7 +11,7 @@ polygon((375, 475), (400, 450), (400, 350), (350, 400), close=False)
 newPath()
 
 moveTo((350, 20))
-lineTo((380, 50))
+lineTo((380, 30))
 curveTo((400, 80), (450, 150), (400, 230))
 lineTo((330, 180))
 
@@ -24,5 +24,5 @@ drawPath()
 
 newPage(900, 900)
 
-font('Inter', 100)
+font('Fredoka', 100)
 text('He is smiling!', (000, 50))
